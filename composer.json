@@ -1,0 +1,20 @@
+{
+    "name": "user/availability",
+    "require-dev": {
+        "behat/behat": "^3.3",
+        "phpspec/phpspec": "^3.2",
+        "phpspec/nyan-formatters": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Kostas Bastas",
+            "email": "costasbastas@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    }
+}
